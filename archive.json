@@ -1,0 +1,1 @@
+[{"name": "unzip2.py", "data": "import json\n\nwith open(input(\"FIle:\"), 'r') as f:\n\tfile = json.load(f)\n\nfor i in file:\n\twith open(i['name'], 'w') as fileforwrite:\n\t\tfileforwrite.write(i['data'])\n\nprint('Unzip complete!')\ninput('Press enter for exit:')"}, {"name": "pro.txt", "data": "Author of file is pro in minecraft"}]
